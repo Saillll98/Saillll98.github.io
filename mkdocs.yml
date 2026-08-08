@@ -1,0 +1,28 @@
+site_name: "Sail's Blog"
+site_url: "https://saillll98.github.io/"
+site_description: "Sail 的个人学习与技术博客"
+
+theme:
+  name: material
+  language: zh
+  palette:
+    scheme: default
+    primary: white
+    accent: grey
+  features:
+    - navigation.top
+
+nav:
+  - 主页: index.md
+  - 课程: course/index.md
+  - 友链: friends/index.md
+  - 关于: about/index.md
+
+markdown_extensions:
+  - admonition
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.superfences
+
+extra_css:
+  - stylesheets/extra.css

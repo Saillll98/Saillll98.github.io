@@ -1,0 +1,48 @@
+:root {
+  --md-primary-fg-color: #ffffff;
+  --md-primary-bg-color: #111111;
+}
+
+body {
+  background: #ffffff;
+}
+
+.md-header {
+  color: #111111;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.08);
+}
+
+.md-header__button.md-logo img,
+.md-header__button.md-logo svg {
+  filter: none;
+}
+
+.md-main__inner {
+  max-width: 64rem;
+}
+
+.md-content__inner {
+  padding-bottom: 3rem;
+}
+
+.home-hero {
+  min-height: calc(100vh - 7rem);
+  display: grid;
+  place-items: center;
+  text-align: center;
+}
+
+.home-hero h1 {
+  margin: 0;
+  color: #111111;
+  font-size: clamp(3.25rem, 10vw, 7rem);
+  font-weight: 750;
+  letter-spacing: -0.055em;
+  line-height: 1;
+}
+
+@media screen and (max-width: 44.984375em) {
+  .home-hero {
+    min-height: calc(100vh - 5rem);
+  }
+}
